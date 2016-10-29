@@ -1,5 +1,7 @@
 <h1 class="text-center">All CF Bloggers</h1>
-
+<div class="text-center">
+  <%= will_paginate @collection, renderer: BootstrapPagination::Rails %>
+</div>
 <% @users.each do |user| %>
   <ul class="listing text-center list-unstyled">
     <div class="row">
@@ -13,3 +15,6 @@
     </div>
   </ul>
 <% end %>
+<div class="text-center">
+  <%= will_paginate @collection, renderer: BootstrapPagination::Rails %>
+</div>
