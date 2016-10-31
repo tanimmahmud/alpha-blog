@@ -13,7 +13,7 @@ gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.4.1'
 gem 'will_paginate', '~> 3.1.0'
 gem 'will_paginate-bootstrap'
-
+gem 'rails-controller-testing'
 
 group :development, :test do
   gem 'sqlite3', '1.3.11'
